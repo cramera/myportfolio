@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Description.">
+  <meta name="keywords" content="performance, measurement, data">
+  <meta name="author" content="Alexander C.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cramercorp_Performance.css">
+  <link rel="icon" href="images/icon.avif">
+  <title>Performance | Cramer Corp</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+// Load the Google Charts library
+google.charts.load('current', { 'packages': ['corechart'] });
+  
+// Callback function to draw the line graph
+google.charts.setOnLoadCallback(drawChart);
+  
+  // Function to draw the line graph
+  function drawChart() {
+    // Create data table
+    var data = new google.visualization.DataTable();
+    data.addColumn('number', 'X');
+    data.addColumn('number', 'Value');
+    
+    // Add data to the table
+    data.addRows([
+      [3, 56],
+      [6, 57.5],
+      [9, 59],
+      [12, 60.5],
+    ]);
+    
+    // Set chart options
+    var options = {
+      title: '',
+      hAxis: { title: 'Time (in months)' },
+      vAxis: { title: 'Revenue (in millions of dollars)' },
+      legend: 'none', // Hide legend
+    };
+    
+    // Create a line chart
+    var chart = new google.visualization.LineChart(document.getElementById('lineChart'));
+    
+    // Draw the chart with the data and options
+    chart.draw(data, options);
+  }
+</script>
+<script type="text/javascript">
+  // Loads the bar graph
+  google.charts.load('current', { 'packages': ['bar'] });
+  
+  // Callback function to draw the bar graph
+  google.charts.setOnLoadCallback(drawChart);
+  
+  // Function to draw the bar graph
+  function drawChart() {
+    // Create data table
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Quarter');
+    data.addColumn('number', 'Clients');
+    
+    // Add data to the table
+    data.addRows([
+      ['Q1', 95],
+      ['Q2', 97],
+      ['Q3', 103],
+      ['Q4', 109],
+      // Add more rows as needed
+    ]);
+    
+    // Set chart options
+    var options = {
+      chart: {
+        title: '',
+      },
+      bars: 'vertical', // Display vertical bars
+      vAxis: { title: 'Number of Clients' }, // Vertical axis title
+      hAxis: { title: 'Quarter' }, // Horizontal axis title
+    };
+    
+    // Create a bar chart
+    var chart = new google.charts.Bar(document.getElementById('barChart'));
+    
+    // Draw the chart with the data and options
+    chart.draw(data, google.charts.Bar.convertOptions(options));
+  }
+</script>
+<script type="text/javascript">
+  // Load the pie chart
+  google.charts.load('current', { 'packages': ['corechart'] });
+  
+  // Callback function to draw the pie chart
+  google.charts.setOnLoadCallback(drawChart);
+  
+  // Function to draw the pie chart
+  function drawChart() {
+    // Create data table
+    var data = new google.visualization.DataTable();
+    data.addColumn('string', 'Category');
+    data.addColumn('number', 'Value');
+    
+    // Add data to the table
+    data.addRows([
+      ['North America', 44.8],
+      ['Asia-Pacific', 29.9],
+      ['Europe', 25.3],
+    ]);
+    
+    // Set chart options
+    var options = {
+      title: '',
+    };
+    
+    // Create a pie chart
+    var chart = new google.visualization.PieChart(document.getElementById('pieChart'));
+    
+    // Draw the chart with the data and options
+    chart.draw(data, options);
+  }
+</script>
+</head>
+<body>
+<header>
+<div class="topnav" id="myTopnav">
+  <a href="Cramercorp_Home.html">Home</a>
+  <a href="Cramercorp_About.html">About</a>
+  <a href="Cramercorp_Services.html">Services</a>
+  <a href="Cramercorp_Pricing.html">Pricing</a>
+  <a class="topnav_active" href="Cramercorp_Performance.html">Performance</a>
+  <a href="Cramercorp_Careers.html">Careers</a>
+  <a href="Cramercorp_Contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+<main>
+<div class="image_container">
+<img class="image_1" src="images/header.gif" alt="A pixelart-generated city skyline.">
+<div class="text_over_image">
+<h1 style="font-size: 50px;">CRAMER CORP</h1>
+<h2>Unleashing Your Business Potential</h2>
+</div>
+</div>
+<div class="header_center">
+  <h1>Performance</h1>
+</div>
+<section>
+<article>
+<p class="pd-lft pd-rght">We are thrilled to share our exceptional performance results that continue to drive value and growth for our esteemed shareholders. Throughout [year/period], we have remained steadfast in our commitment to excellence, leveraging our innovative strategies, dedicated team, and unwavering focus on achieving sustainable success.</p>
+<p class="pd-lft pd-rght">Our financial achievements speak volumes. In the 2022-23 fiscal year, we achieved many targets -- a testament to our robust business model and the effective execution of our strategic initiatives. This remarkable performance is a direct result of our prudent decision-making, operational efficiency, and the relentless pursuit of market opportunities.</p>
+<p class="pd-lft pd-rght">To remain transparent, we maintained an open line of communication through regular updates, shareholder meetings, and comprehensive reporting that provide insight into our performance, progress, and future prospects. This dedication to clear communication ensures that our shareholders remain well-informed partners on this exciting journey.</p>
+<p class="pd-lft pd-rght">As we look ahead, we remain poised for continued success. Our strategic roadmap is built on a foundation of adaptability, resilience, and an unrelenting pursuit of excellence. With the ongoing support of our shareholders, we are confident in our ability to navigate challenges, capitalize on opportunities, and deliver growth.</p>
+<p class="pd-lft pd-rght pd-bttm">We extend our gratitude to our shareholders for their trust, partnership, and shared vision. Together, we are shaping a future that reflects our commitment to excellence, innovation, and value creation.</p>
+</article>
+</section>
+<section>
+<article>
+<div class="divider"></div>
+<section>
+<article>
+<div style="width: 100%">
+  <h4 style="padding-left: 20px;">Revenue Collected - 2022-23 Fiscal Year</h4>
+  <div id="lineChart" style="padding-left: 20px; padding-right: 20px; padding-bottom: 30px; height: 500px;"></div>
+</div>
+</article>
+</section>
+<div class="divider"></div>
+<section>
+<article>
+<div style="width: 100%">
+  <h4 style="padding-left: 20px;">Clients Served - 2022-23 Fiscal Year</h4>
+  <div id="barChart" style="padding-left: 20px; padding-right: 20px; padding-bottom: 30px; height: 500px;"></div>
+</div>
+</article>
+</section>
+<div class="divider"></div>
+<section>
+<article>
+<div style="width: 100%">
+  <h4 style="padding-left: 20px;">Share of Market Hold - 2022-23 Fiscal Year</h4>
+  <div id="pieChart" style="padding-left: 20px; padding-right: 20px; padding-bottom: 20px; height: 500px;"></div>
+</div>
+</article>
+</section>
+</article>
+</section>
+<button id="back-to-top">↑</button>
+</main>
+<footer>
+  <p class="footer_align_right">Cramer Corp<br>100 Main St<br>Toronto, ON<br>A1A A1A Canada<br>+1 (000) 000-0000<br><br></p>
+  <p class="footer_align_left">&copy; 2023 Cramer Corp. All Rights Reserved.</p>
+  </footer>
+<script src="Cramercorp.js">
+</script>
+</body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Description.">
+  <meta name="keywords" content="price, cost, fees">
+  <meta name="author" content="Alexander C.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cramercorp_Pricing.css">
+  <link rel="icon" href="images/icon.avif">
+  <title>Pricing | Cramer Corp</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+</head>
+<body>
+<header>
+<div class="topnav" id="myTopnav">
+  <a href="Cramercorp_Home.html">Home</a>
+  <a href="Cramercorp_About.html">About</a>
+  <a href="Cramercorp_Services.html">Services</a>
+  <a class="topnav_active" href="Cramercorp_Pricing.html">Pricing</a>
+  <a href="Cramercorp_Performance.html">Performance</a>
+  <a href="Cramercorp_Careers.html">Careers</a>
+  <a href="Cramercorp_Contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+<main>
+<div class="image_container">
+<img class="image_1" src="images/header.gif" alt="A pixelart-generated city skyline.">
+<div class="text_over_image">
+<h1 style="font-size: 50px;">CRAMER CORP</h1>
+<h2>Unleashing Your Business Potential</h2>
+</div>
+</div>
+<div class="header_center">
+  <h1>Pricing</h1>
+</div>
+<section>
+<article>
+<p>We understand that every client is unique. As such, we have carefully crafted a selection of pricing options to cater to various needs. Whether you are seeking comprehensive strategic guidance or targeted solutions for specific challenges, we are confident that our services will empower you to make informed decisions and achieve your business objectives.</p>
+<div class="popup" id="myPopup"></div>
+    <div class="package_container_row">
+      <div class="package_container">
+        <a href="#" class="package_container_a">
+          <div class="package_label_base">Tier 1: Essential</div>
+        </a>
+          <p>Base features and services</p>
+          <p>Price: $499/month</p>
+          <br>
+          <div class="button_container">
+          <button id="subscribeButton1" class="subscribe_button" onclick="myFunctionAlertBase()">Select this Package</button>
+          </div>
+        <script>
+          function myFunctionAlertBase() {
+            alert("You are now signed up for the Essential package! To make changes to your plan, please contact us at payments@cramercorp.ca. Thank you.");
+          }
+        </script>
+      </div>
+      <div class="package_container">
+      <a href="#" class="package_container_a">
+        <div class="package_label_prem">Tier 2: Enhanced</div>
+      </a>
+        <p>Enhanced features and services</p>
+        <p>Price: $749/month</p>
+        <br>
+        <div class="button_container">
+          <button id="subscribeButton2" class="subscribe_button" onclick="myFunctionAlertPrem()">Select this Package</button>
+        </div>
+        <script>
+          function myFunctionAlertPrem() {
+            alert("You are now signed up for the Premium package! To make changes to your plan, please contact us at payments@cramercorp.ca. Thank you.");
+          }
+        </script>
+      </div>
+      <div class="package_container">
+      <a href="#" class="package_container_a">
+        <div class="package_label_ult">Tier 3: Ultimate</div>
+      </a>
+        <p>Optimal features and services</p>
+        <p>Price: $999/month</p>
+        <br>
+        <div class="button_container">
+          <button id="subscribeButton3" class="subscribe_button" onclick="myFunctionAlertUlt()">Select this Package</button>
+        </div>
+        <script>
+          function myFunctionAlertUlt() {
+            alert("You are now signed up for the Ultimate package! To make changes to your plan, please contact us at payments@cramercorp.ca. Thank you.");
+          }
+        </script>
+      </div>
+    </div>
+</article>
+</section>
+
+<img class="image_2" src="images/pricing_image1.jpg" alt="A pixelart-generated view of employees in an office.">
+
+<button id="back-to-top">↑</button>
+</main>
+<footer>
+  <p class="footer_align_right">Cramer Corp<br>100 Main St.<br>Toronto, ON<br>A1A A1A Canada<br>+1 (000) 000-0000<br><br></p>
+  <p class="footer_align_left">&copy; 2023 Cramer Corp. All Rights Reserved.</p>
+</footer>
+<script src="Cramercorp.js">
+</script>
+</body>
+</html>

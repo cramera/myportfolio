@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Description.">
+  <meta name="keywords" content="contact, communication, correspondence">
+  <meta name="author" content="Alexander C.">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="Cramercorp_Contact.css">
+  <link rel="icon" href="images/icon.avif">
+  <title>Contact | Cramer Corp</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto Mono' rel='stylesheet'>
+</head>
+<body>
+<header>
+<div class="topnav" id="myTopnav">
+  <a href="Cramercorp_Home.html">Home</a>
+  <a href="Cramercorp_About.html">About</a>
+  <a href="Cramercorp_Services.html">Services</a>
+  <a href="Cramercorp_Pricing.html">Pricing</a>
+  <a href="Cramercorp_Performance.html">Performance</a>
+  <a href="Cramercorp_Careers.html">Careers</a>
+  <a class="topnav_active" href="Cramercorp_Contact.html">Contact</a>
+  <a href="javascript:void(0);" style="font-size:18px;" class="icon" onclick="myFunction()">&#9776;</a>
+</div>
+</header>
+<main>
+<div class="image_container">
+<img class="image_1" src="images/header.gif" alt="A pixelart-generated city skyline.">
+<div class="text_over_image">
+<h1 style="font-size: 50px; position: relative;">CRAMER CORP</h1>
+<h2>Unleashing Your Business Potential</h2>
+</div>
+</div>
+<div class="header_center">
+  <h1>Contact</h1>
+</div>
+<section>
+<article>
+<h3>For all your business inquiries.</h3>
+    <form action="submit_contact.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="subject">Subject:</label>
+        <input type="subject" id="subject" name="subject" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <button id="sendButton" class="send_button">Submit</button>
+    </form>
+</article>
+</section>
+<button id="back-to-top">↑</button>
+</main>
+<footer>
+  <p class="footer_align_right">Cramer Corp<br>100 Main St<br>Toronto, ON<br>A1A A1A Canada<br>+1 (000) 000-0000<br><br></p>
+  <p class="footer_align_left">&copy; 2023 Cramer Corp. All Rights Reserved.</p>
+  </footer>
+<script src="Cramercorp.js">
+</script>
+</body>
+</html>
